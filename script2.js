@@ -112,7 +112,7 @@
 
 
 
-let work = prompt('Укажи зп')
+// let work = prompt('Укажи зп')
 // if(work<20000){
 //     console.log('вам отказ')
 // }
@@ -126,28 +126,38 @@ let work = prompt('Укажи зп')
 // }
 // work<=20000 ? console.log('вам отказ') : console.log('вам одобрено')         //тернарный оператор
 
-switch (work) {
-    case 20000:
-        alert('вам отказ')
-    case 30000:
-        alert('нужен поручитель')
-    case 40000:
-        alert('ВАМ ОДОБРЕНО!!!')
-        default:
-            alert('дай все доки')
-}
+// switch (work) {
+//     case 20000:
+//         alert('вам отказ')
+//     case 30000:
+//         alert('нужен поручитель')
+//     case 40000:
+//         alert('ВАМ ОДОБРЕНО!!!')
+//         default:
+//             alert('дай все доки')
+// }
 
 
 
 
-let statusUser = false
-if(statusUser){
-    Auth(on)
-}
-else if(dfhbdf){auth(off)}
-else if(){auth(off)}
-else if(){auth(off)}
+// let statusUser = false
+// if(statusUser){
+//     Auth(on)
+// }
+// else if(dfhbdf){auth(off)}
+// else if(){auth(off)}
+// else if(){auth(off)}
 
+//task1
+let age = prompt('сколько тебе лет?')
+if(age >=0 && age <=2){
+    console.log('младенец')}
+else if(age >=12 && age <=18 ){
+    console.log('подросток')}
+else if(age >=18 && age <=60 ){
+    console.log('вы взрослый')}
+else if(age >=60 ){
+    console.log('вы пенсионер')}
 
 
 
